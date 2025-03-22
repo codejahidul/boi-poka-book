@@ -5,12 +5,12 @@ const Banner = () => {
       <div className="hero-content flex-col lg:flex-row-reverse">
         <img
           src= {bannerImg}
-          className="  w-8/12 lg:w-5/12 rounded-lg shadow-2xl"
+          className="   lg:w-5/12 rounded-lg shadow-2xl"
         />
         <div className="">
-          <h1 className="text-5xl italic ml-10 font-semibold font-serif">Books to freshen up your bookshelf</h1>
+          <h1 className="lg:text-5xl text-2xl italic ml-4 lg:ml-10 font-semibold font-serif">Books to freshen up your bookshelf</h1>
          
-          <button className="btn text-lg rounded-lg text-[#FFFFFF] ml-44 mt-24 lg:ml-10 bg-[#23BE0A]">View The List</button>
+          <button className="btn text-lg font-serif rounded-lg text-[#FFFFFF]  mt-24 ml-12 bg-[#23BE0A]">View The List</button>
         </div>
       </div>
     </div>
